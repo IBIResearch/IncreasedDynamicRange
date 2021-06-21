@@ -1,0 +1,5 @@
+[deps]
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+MPIReco = "e4246700-6248-511e-8146-a1d1f47669d2"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"

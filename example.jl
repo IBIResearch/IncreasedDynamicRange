@@ -11,18 +11,19 @@
 # Phantom: Vessel and Kidneys (Dilution: 1 : 2^(-5))
 # Julia: 1.6
 
-using MPIReco
-using Plots, Plots.PlotMeasures 
-using LazyArtifacts
-
-pyplot() # use PyPlot backend for plotting
-
 ##############################
 # Activate local environment #
 ##############################
 using Pkg
 Pkg.activate(".")
 Pkg.instantiate()
+
+# load packages
+using MPIReco
+using Plots, Plots.PlotMeasures
+using LazyArtifacts
+
+pyplot() # use PyPlot backend for plotting
 
 
 ###################
